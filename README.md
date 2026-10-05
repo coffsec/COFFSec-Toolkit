@@ -27,6 +27,59 @@ Whether you are a penetration tester, red teamer, security engineer, SOC analyst
 
 ---
 
+## 🌟 Features & Tools
+
+The toolkit is divided into several categories to help you find the right tool for the job quickly.
+
+### 🔐 Cryptography & Encryption
+Tools for securing data, generating keys, and testing cryptographic algorithms.
+* **[AES](https://toolkit.coffsec.com/aes):** Encrypt and decrypt data using the Advanced Encryption Standard (symmetric encryption).
+* **[RSA](https://toolkit.coffsec.com/rsa):** Generate asymmetric RSA key pairs, encrypt, and decrypt data.
+* **[ECC](https://toolkit.coffsec.com/ecc):** Elliptic Curve Cryptography tool for modern, lightweight public-key encryption.
+* **[Bcrypt](https://toolkit.coffsec.com/bcrypt):** Generate and verify secure Bcrypt password hashes.
+* **[XOR](https://toolkit.coffsec.com/xor):** Perform bitwise XOR operations on text or data streams.
+* **[Caesar Cipher](https://toolkit.coffsec.com/caesar):** Encrypt or decrypt text using the classic shift cipher.
+* **[IPv4 Obfuscation](https://toolkit.coffsec.com/ipv4fuscation):** Obfuscate IP addresses into decimal, hex, or octal formats for security testing and payload crafting.
+
+### 🧮 Hashing
+Generate one-way cryptographic hashes for data integrity verification.
+* **[MD5](https://toolkit.coffsec.com/md5):** Generate 128-bit MD5 hashes.
+* **[SHA-1](https://toolkit.coffsec.com/sha1):** Generate 160-bit SHA-1 hashes.
+* **[SHA-256](https://toolkit.coffsec.com/sha256):** Generate secure 256-bit hashes (standard for most modern applications).
+* **[SHA-384](https://toolkit.coffsec.com/sha384):** Generate 384-bit cryptographic hashes.
+* **[SHA-512](https://toolkit.coffsec.com/sha512):** Generate highly secure 512-bit hashes.
+
+### 🔄 Encoding & Decoding
+Quickly translate data between different formats and representations.
+* **[Base64](https://toolkit.coffsec.com/base64):** Encode text or files to Base64 and decode them back to their original form.
+* **[Hex](https://toolkit.coffsec.com/hex):** Convert text to hexadecimal strings and vice-versa.
+* **[ASCII](https://toolkit.coffsec.com/ascii):** Translate strings into their corresponding ASCII numerical values.
+* **[URL Encode/Decode](https://toolkit.coffsec.com/url):** Safely encode special characters for web URLs or decode them back to readable text.
+
+### 🪄 Formatters & Beautifiers
+Clean up minified or messy code to make it human-readable.
+* **[JSON Beautify](https://toolkit.coffsec.com/json-beautify):** Format, indent, and validate JSON data.
+* **[JS Beautify](https://toolkit.coffsec.com/js-beautify):** Unminify and format JavaScript code.
+* **[SQL Beautify](https://toolkit.coffsec.com/sql-beautify):** Format messy SQL queries into a clean, structured layout.
+
+### 🛠️ Developer Utilities
+Handy tools for daily software development and debugging.
+* **[JWT Decoder (jwt.coffsec.com)](https://jwt.coffsec.com):** Decode, verify, and inspect JSON Web Tokens.
+* **[Regex Tester](https://toolkit.coffsec.com/regex):** Write, test, and debug Regular Expressions in real-time against sample text.
+* **[Diff Checker](https://toolkit.coffsec.com/diff):** Compare two blocks of text or code to find additions, deletions, and modifications.
+* **[cURL Converter](https://toolkit.coffsec.com/curl-converter):** Convert raw cURL commands into usable code for Python, Node.js, Go, PHP, and more.
+* **[JSON to CSV](https://toolkit.coffsec.com/json-to-csv):** Easily convert complex JSON arrays/objects into tabular CSV format.
+
+### 📝 Editors & Generators
+In-browser authoring and generation tools.
+* **[Password Generator](https://toolkit.coffsec.com/password-generator):** Create highly secure, customizable, and random passwords.
+* **[QR Code Generator](https://toolkit.coffsec.com/qr):** Generate scannable QR codes from text, links, or contact info.
+* **[Markdown Editor](https://toolkit.coffsec.com/markdown):** Write Markdown with a live, real-time rich-text preview.
+* **[HTML Editor](https://toolkit.coffsec.com/html-editor):** Write and test HTML/CSS/JS with instant visual output.
+* **[SVG Editor](https://toolkit.coffsec.com/svg-editor):** Preview, edit, and tweak raw Scalable Vector Graphics code.
+
+---
+
 ## 🎯 What You’ll Find
 
 The COFFSec Toolkit brings together resources across the modern security landscape, including:
