@@ -1,225 +1,176 @@
 <div align="center">
 
-# COFFSec Toolkit
+#  COFFSec Toolkit
 
-### Practical cybersecurity tools for modern security teams
+**A curated collection of practical cybersecurity tools and resources for security professionals.**
 
-A curated collection of browser-based utilities, references, and resources for penetration testers, red teamers, security engineers, developers, researchers, and security students.
-
-[![Open Toolkit](https://img.shields.io/badge/Open-Toolkit-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://toolkit.coffsec.com)
-[![COFFSec Website](https://img.shields.io/badge/COFFSec-Website-111111?style=for-the-badge&logo=github&logoColor=white)](https://coffsec.com)
+[![Live Toolkit](https://img.shields.io/badge/Live-Toolkit-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://toolkit.coffsec.com)
+[![COFFSec](https://img.shields.io/badge/COFFSec-Official-111111?style=for-the-badge&logo=github&logoColor=white)](https://coffsec.com)
 [![License](https://img.shields.io/badge/License-TBD-8A2BE2?style=for-the-badge)](#license)
-[![For Security Professionals](https://img.shields.io/badge/Built%20for-Security%20Professionals-C41E3A?style=for-the-badge)](#who-its-for)
+[![Made for Security Professionals](https://img.shields.io/badge/Made%20for-Security%20Professionals-red?style=for-the-badge)](#-who-its-for)
 
-**[Explore the toolkit → toolkit.coffsec.com](https://toolkit.coffsec.com)**
+**Explore the toolkit → [toolkit.coffsec.com](https://toolkit.coffsec.com)**
 
 </div>
 
 ---
 
-## Overview
+## ✨ Overview
 
-**COFFSec Toolkit** is a practical collection of online cybersecurity utilities and security resources created by [COFFSec](https://coffsec.com).
+**COFFSec Toolkit** is COFFSec’s online collection of practical cybersecurity tools, references, and resources designed to support security professionals in real-world offensive security, defensive security, and security research workflows. 
 
-It is designed to help security professionals work more efficiently across offensive security, defensive security, application security, software development, and technical research.
+The toolkit is built around a simple principle:
 
-The toolkit provides quick access to commonly used utilities without requiring local installation or complex setup.
+> **Make useful security knowledge and tooling accessible, practical, and easy to apply.**
 
-> **Practical security knowledge should be accessible, easy to use, and useful in real-world workflows.**
-
-All resources should be used only in environments where you have explicit authorization.
+Whether you are a penetration tester, red teamer, security engineer, SOC analyst, developer, or researcher, the toolkit is intended to help you move faster from idea to action.
 
 ---
 
-## Toolkit Categories
+## 🌟 Features & Tools
 
-### Cryptography and Encryption
+The toolkit is divided into several categories to help you find the right tool for the job quickly.
 
-Utilities for experimenting with encryption algorithms, cryptographic formats, and security concepts.
+### 🔐 Cryptography & Encryption
+Tools for securing data, generating keys, and testing cryptographic algorithms.
+* **[AES](https://toolkit.coffsec.com/aes):** Encrypt and decrypt data using the Advanced Encryption Standard (symmetric encryption).
+* **[RSA](https://toolkit.coffsec.com/rsa):** Generate asymmetric RSA key pairs, encrypt, and decrypt data.
+* **[ECC](https://toolkit.coffsec.com/ecc):** Elliptic Curve Cryptography tool for modern, lightweight public-key encryption.
+* **[Bcrypt](https://toolkit.coffsec.com/bcrypt):** Generate and verify secure Bcrypt password hashes.
+* **[XOR](https://toolkit.coffsec.com/xor):** Perform bitwise XOR operations on text or data streams.
+* **[Caesar Cipher](https://toolkit.coffsec.com/caesar):** Encrypt or decrypt text using the classic shift cipher.
+* **[IPv4 Obfuscation](https://toolkit.coffsec.com/ipv4fuscation):** Obfuscate IP addresses into decimal, hex, or octal formats for security testing and payload crafting.
 
-- **[AES](https://toolkit.coffsec.com/aes)** — Encrypt and decrypt data using the Advanced Encryption Standard.
-- **[RSA](https://toolkit.coffsec.com/rsa)** — Generate RSA key pairs and perform public-key encryption and decryption.
-- **[ECC](https://toolkit.coffsec.com/ecc)** — Explore Elliptic Curve Cryptography and modern public-key operations.
-- **[Bcrypt](https://toolkit.coffsec.com/bcrypt)** — Generate and verify bcrypt password hashes.
-- **[XOR](https://toolkit.coffsec.com/xor)** — Perform XOR operations for security testing, analysis, and experimentation.
-- **[Caesar Cipher](https://toolkit.coffsec.com/caesar)** — Encode and decode text using a classical substitution cipher.
-- **[IPv4 Obfuscation](https://toolkit.coffsec.com/ipv4fuscation)** — Represent IPv4 addresses in decimal, hexadecimal, and octal formats for authorized testing.
+### 🧮 Hashing
+Generate one-way cryptographic hashes for data integrity verification.
+* **[MD5](https://toolkit.coffsec.com/md5):** Generate 128-bit MD5 hashes.
+* **[SHA-1](https://toolkit.coffsec.com/sha1):** Generate 160-bit SHA-1 hashes.
+* **[SHA-256](https://toolkit.coffsec.com/sha256):** Generate secure 256-bit hashes (standard for most modern applications).
+* **[SHA-384](https://toolkit.coffsec.com/sha384):** Generate 384-bit cryptographic hashes.
+* **[SHA-512](https://toolkit.coffsec.com/sha512):** Generate highly secure 512-bit hashes.
 
-### Hashing
+### 🔄 Encoding & Decoding
+Quickly translate data between different formats and representations.
+* **[Base64](https://toolkit.coffsec.com/base64):** Encode text or files to Base64 and decode them back to their original form.
+* **[Hex](https://toolkit.coffsec.com/hex):** Convert text to hexadecimal strings and vice-versa.
+* **[ASCII](https://toolkit.coffsec.com/ascii):** Translate strings into their corresponding ASCII numerical values.
+* **[URL Encode/Decode](https://toolkit.coffsec.com/url):** Safely encode special characters for web URLs or decode them back to readable text.
 
-Generate cryptographic digests for integrity checks, analysis, and security testing.
+### 🪄 Formatters & Beautifiers
+Clean up minified or messy code to make it human-readable.
+* **[JSON Beautify](https://toolkit.coffsec.com/json-beautify):** Format, indent, and validate JSON data.
+* **[JS Beautify](https://toolkit.coffsec.com/js-beautify):** Unminify and format JavaScript code.
+* **[SQL Beautify](https://toolkit.coffsec.com/sql-beautify):** Format messy SQL queries into a clean, structured layout.
 
-- **[MD5](https://toolkit.coffsec.com/md5)** — Generate MD5 message digests.
-- **[SHA-1](https://toolkit.coffsec.com/sha1)** — Generate SHA-1 message digests.
-- **[SHA-256](https://toolkit.coffsec.com/sha256)** — Generate SHA-256 hashes.
-- **[SHA-384](https://toolkit.coffsec.com/sha384)** — Generate SHA-384 hashes.
-- **[SHA-512](https://toolkit.coffsec.com/sha512)** — Generate SHA-512 hashes.
+### 🛠️ Developer Utilities
+Handy tools for daily software development and debugging.
+* **[JWT Decoder (jwt.coffsec.com)](https://jwt.coffsec.com):** Decode, verify, and inspect JSON Web Tokens.
+* **[Regex Tester](https://toolkit.coffsec.com/regex):** Write, test, and debug Regular Expressions in real-time against sample text.
+* **[Diff Checker](https://toolkit.coffsec.com/diff):** Compare two blocks of text or code to find additions, deletions, and modifications.
+* **[cURL Converter](https://toolkit.coffsec.com/curl-converter):** Convert raw cURL commands into usable code for Python, Node.js, Go, PHP, and more.
+* **[JSON to CSV](https://toolkit.coffsec.com/json-to-csv):** Easily convert complex JSON arrays/objects into tabular CSV format.
 
-
-### Encoding and Decoding
-
-Convert data between commonly used representations and transport formats.
-
-- **[Base64](https://toolkit.coffsec.com/base64)** — Encode and decode text or files using Base64.
-- **[Hex](https://toolkit.coffsec.com/hex)** — Convert text to hexadecimal and decode hexadecimal values.
-- **[ASCII](https://toolkit.coffsec.com/ascii)** — Convert text to ASCII character values and back.
-- **[URL Encode/Decode](https://toolkit.coffsec.com/url)** — Encode or decode URL components and special characters.
-
-### Code Formatters
-
-Make structured data, source code, and queries easier to read and analyze.
-
-- **[JSON Beautifier](https://toolkit.coffsec.com/json-beautify)** — Format, indent, and validate JSON.
-- **[JavaScript Beautifier](https://toolkit.coffsec.com/js-beautify)** — Format and improve the readability of JavaScript code.
-- **[SQL Beautifier](https://toolkit.coffsec.com/sql-beautify)** — Format SQL queries into a clean, structured layout.
-
-### Developer and Security Utilities
-
-Tools for application testing, debugging, analysis, and everyday development workflows.
-
-- **[JWT Decoder](https://jwt.coffsec.com)** — Decode and inspect JSON Web Tokens.
-- **[Regex Tester](https://toolkit.coffsec.com/regex)** — Create, test, and debug regular expressions.
-- **[Diff Checker](https://toolkit.coffsec.com/diff)** — Compare text, source code, and configuration changes.
-- **[cURL Converter](https://toolkit.coffsec.com/curl-converter)** — Convert cURL commands into code for Python, Node.js, Go, PHP, and other languages.
-- **[JSON to CSV](https://toolkit.coffsec.com/json-to-csv)** — Convert JSON data into CSV format for analysis and reporting.
-
-### Editors and Generators
-
-Browser-based tools for writing, generating, and previewing content.
-
-- **[Password Generator](https://toolkit.coffsec.com/password-generator)** — Generate random passwords with configurable options.
-- **[QR Code Generator](https://toolkit.coffsec.com/qr)** — Create QR codes from text, URLs, and contact information.
-- **[Markdown Editor](https://toolkit.coffsec.com/markdown)** — Write Markdown with a live preview.
-- **[HTML Editor](https://toolkit.coffsec.com/html-editor)** — Write and preview HTML, CSS, and JavaScript.
-- **[SVG Editor](https://toolkit.coffsec.com/svg-editor)** — Edit and preview Scalable Vector Graphics markup.
+### 📝 Editors & Generators
+In-browser authoring and generation tools.
+* **[Password Generator](https://toolkit.coffsec.com/password-generator):** Create highly secure, customizable, and random passwords.
+* **[QR Code Generator](https://toolkit.coffsec.com/qr):** Generate scannable QR codes from text, links, or contact info.
+* **[Markdown Editor](https://toolkit.coffsec.com/markdown):** Write Markdown with a live, real-time rich-text preview.
+* **[HTML Editor](https://toolkit.coffsec.com/html-editor):** Write and test HTML/CSS/JS with instant visual output.
+* **[SVG Editor](https://toolkit.coffsec.com/svg-editor):** Preview, edit, and tweak raw Scalable Vector Graphics code.
 
 ---
 
-## Use Cases
+## 🎯 What You’ll Find
 
-COFFSec Toolkit supports a range of common security and development workflows:
+The COFFSec Toolkit brings together resources across the modern security landscape, including:
 
-- **Penetration testing** — Prepare payloads, inspect formats, decode data, and validate application behavior.
-- **Red team operations** — Use lightweight utilities during authorized adversary-simulation engagements.
-- **Web application security** — Analyze URLs, tokens, encoded values, regular expressions, JSON, and application logic.
-- **Security research** — Experiment with cryptographic operations, data formats, and implementation behavior.
-- **Software development** — Format code, compare changes, test regular expressions, and convert data.
-- **Security education** — Learn how common encoding, hashing, encryption, and application-security concepts work.
-- **Technical reporting** — Clean up data and source code for analysis, documentation, and client deliverables.
+- 🔐 **Offensive security resources** — practical tooling and references for penetration testing and adversary simulation
+- 🕵️ **Red team resources** — techniques, tooling, and tradecraft for authorized security assessments
+- 🌐 **Web and application security** — resources for identifying and understanding common web attack surfaces
+- 🧠 **Security research** — curated insights from COFFSec research and practical field experience
+- ⚙️ **Operational security tooling** — utilities designed to support security workflows
+- 📚 **Learning material** — references for practitioners preparing for engagements, certifications, or continuous learning
 
----
-
-## Getting Started
-
-No installation is required.
-
-1. Visit **[toolkit.coffsec.com](https://toolkit.coffsec.com)**.
-2. Browse the available categories.
-3. Select a tool that matches your workflow.
-4. Provide the required input.
-5. Review or export the result as needed.
-6. Use the output only in an authorized and responsible context.
+> The toolkit is continuously evolving. New tools, references, and categories may be added over time.
 
 ---
 
-## Who It’s For
+## 🚀 Getting Started
 
-| Audience | Example Use |
+No installation is required to use the online toolkit.
+
+1. Visit **[toolkit.coffsec.com](https://toolkit.coffsec.com)**
+2. Browse the available tools and resources
+3. Select the category or resource relevant to your workflow
+4. Apply it in an authorized, responsible security context
+
+---
+
+## 👥 Who It’s For
+
+| Audience | How the Toolkit Helps |
 |---|---|
-| **Penetration testers** | Access practical utilities during application, network, and infrastructure assessments. |
-| **Red teamers** | Support authorized adversary-simulation and security-validation activities. |
-| **Security engineers** | Inspect data formats, validate controls, and support hardening work. |
-| **SOC and detection teams** | Understand attacker techniques, encoded data, and application behavior. |
-| **Developers** | Test, format, transform, and inspect application data and source code. |
-| **Students and researchers** | Experiment with security concepts and build practical technical skills. |
+| **Penetration Testers** | Quickly access practical tooling and references for assessments |
+| **Red Teamers** | Explore adversary-simulation resources and offensive security tradecraft |
+| **Security Engineers** | Discover utilities and references for hardening, validation, and research |
+| **SOC & Detection Teams** | Build a stronger understanding of offensive techniques and attacker behavior |
+| **Developers** | Learn how security issues appear in real-world applications and systems |
+| **Students & Researchers** | Access curated material for structured security learning and experimentation |
 
 ---
 
-## Design Principles
+## 🧭 Design Principles
 
-COFFSec Toolkit is built around five principles:
+COFFSec Toolkit is guided by the following principles:
 
-- **Practical** — Focus on utilities that support real security and development workflows.
-- **Accessible** — Make useful tools available directly from the browser.
-- **Focused** — Keep each tool simple, clear, and easy to operate.
-- **Research-driven** — Reflect COFFSec’s experience in offensive security and technical research.
-- **Responsible** — Encourage lawful, ethical, and authorized use.
-
----
-
-## Responsible Use
-
-The COFFSec Toolkit is provided for **lawful, authorized, and ethical purposes only**.
-
-Before using any tool against a system, application, network, account, or service, ensure that you have explicit permission from the owner or authorized operator.
-
-You must not use the toolkit to:
-
-- Gain unauthorized access.
-- Test systems without permission.
-- Steal, expose, or misuse sensitive information.
-- Evade security controls for malicious purposes.
-- Conduct activity that violates applicable laws or regulations.
-
-COFFSec does not support unauthorized access, malicious activity, or illegal use of these resources. You are solely responsible for your actions and for complying with all applicable laws, contracts, and engagement rules.
+- **Practical first** — prioritize tools and resources that are useful in real security work
+- **Accessible** — keep the experience simple, fast, and easy to navigate
+- **Research-driven** — reflect COFFSec’s offensive security and research background
+- **Community-oriented** — share knowledge that helps security professionals improve
+- **Responsible use** — promote ethical, authorized, and legal security testing
 
 ---
 
-## Contributing
+## ⚠️ Responsible Use
 
-Suggestions, improvements, and responsible contributions are welcome.
+The resources in this toolkit are intended for **lawful, authorized, and ethical security purposes only**.
 
-To propose an improvement:
+You are responsible for ensuring that you have explicit permission before testing, scanning, probing, or interacting with any system, application, network, or service that you do not own or are not authorized to assess.
 
-1. Open an issue describing the proposed change.
-2. Explain the problem it solves or the value it provides.
-3. Include relevant examples, references, screenshots, or reproduction steps.
-4. Submit a pull request if you would like to implement the change.
-
-When contributing, ensure that:
-
-- The proposed resource is legal to distribute.
-- Security research is responsibly disclosed where applicable.
-- New tools are documented clearly.
-- Changes are consistent with the purpose and design principles of the toolkit.
-- No secrets, credentials, personal data, or unauthorized content are included.
+COFFSec does not condone or support unauthorized access, malicious activity, or any use of these resources for illegal purposes.
 
 ---
 
-## Project Status
+## 🤝 Contributing
 
-COFFSec Toolkit is continuously evolving.
+Contributions, suggestions, and feedback are welcome.
 
-New utilities, references, categories, and improvements may be added over time. Tool availability and functionality may change as the project develops.
+If you would like to suggest a tool, resource, category, or improvement:
 
-If you find a broken link, incorrect behavior, security issue, or improvement opportunity, please open an issue with enough detail for the problem to be investigated.
+1. Open an issue describing the suggestion
+2. Explain why it is useful for security professionals
+3. Include relevant links, context, and screenshots where appropriate
+4. Submit a pull request if you would like to contribute directly
 
----
-
-## Connect with COFFSec
-
-- **Website:** [coffsec.com](https://coffsec.com)
-- **Toolkit:** [toolkit.coffsec.com](https://toolkit.coffsec.com)
-- **Research and insights:** [coffsec.medium.com](https://coffsec.medium.com)
-- **LinkedIn:** [COFFSec on LinkedIn](https://www.linkedin.com/company/coffsec)
-- **Contact:** [contact@coffsec.com](mailto:contact@coffsec.com)
+Before contributing, please ensure that any suggested resource is legal to share, responsibly disclosed where applicable, and aligned with ethical security practices.
 
 ---
 
-## License
+### Connect with COFFSec
 
-The project license is currently **to be determined**.
-
-Until a license is published, do not assume that the repository contents may be copied, modified, redistributed, or used commercially. Please contact COFFSec if you need clarification regarding use or redistribution.
+- 🌐 Website: [coffsec.com](https://coffsec.com)
+- 🧰 Toolkit: [toolkit.coffsec.com](https://toolkit.coffsec.com)
+- ✍️ Research & Insights: [coffsec.medium.com](https://coffsec.medium.com)
+- 💼 LinkedIn: [COFFSec on LinkedIn](https://www.linkedin.com/company/coffsec)
+- 📧 Contact: [contact@coffsec.com](mailto:contact@coffsec.com)
 
 ---
 
 <div align="center">
 
-**Built by [COFFSec](https://coffsec.com)**
+**Built by [COFFSec](https://coffsec.com)**  
+*Advancing practical cybersecurity through research, tooling, and real-world expertise.*
 
-*Practical cybersecurity through research, tooling, and real-world expertise.*
-
-If you find the toolkit useful, consider giving the repository a ⭐
+⭐ If this toolkit is useful to you, consider starring the repository.
 
 </div>
