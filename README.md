@@ -1,6 +1,6 @@
 <div align="center">
 
-#  COFFSec Toolkit
+# COFFSec Toolkit
 
 **A curated collection of practical cybersecurity tools and resources for security professionals.**
 
@@ -77,6 +77,11 @@ In-browser authoring and generation tools.
 * **[Markdown Editor](https://toolkit.coffsec.com/markdown):** Write Markdown with a live, real-time rich-text preview.
 * **[HTML Editor](https://toolkit.coffsec.com/html-editor):** Write and test HTML/CSS/JS with instant visual output.
 * **[SVG Editor](https://toolkit.coffsec.com/svg-editor):** Preview, edit, and tweak raw Scalable Vector Graphics code.
+
+### 🌐 Network & Recon Utilities
+Tools for network calculations, subnetting, and web reconnaissance.
+* **[CIDR Calculator](https://toolkit.coffsec.com/cidr):** Calculate network ranges, subnet masks, broadcast addresses, and usable host counts from CIDR notation.
+* **[Favicon Finder](https://toolkit.coffsec.com/favicon):** Discover and extract favicons from target domains for reconnaissance, branding analysis, and asset enumeration.
 
 ---
 
