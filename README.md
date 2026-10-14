@@ -76,16 +76,17 @@ Handy tools for daily software development and debugging.
 
 ### 📝 Editors & Generators
 In-browser authoring and generation tools.
-* **[Password Generator](https://toolkit.coffsec.com/password-generator):** Create highly secure, customizable, and random passwords.
-* **[QR Code Generator](https://toolkit.coffsec.com/qr):** Generate scannable QR codes from text, links, or contact info.
-* **[Markdown Editor](https://toolkit.coffsec.com/markdown):** Write Markdown with a live, real-time rich-text preview.
-* **[HTML Editor](https://toolkit.coffsec.com/html-editor):** Write and test HTML/CSS/JS with instant visual output.
-* **[SVG Editor](https://toolkit.coffsec.com/svg-editor):** Preview, edit, and tweak raw Scalable Vector Graphics code.
+* **[Password Generator](https://toolkit.coffsec.com/password-generator):** Create highly secure, customizable, and random passwords. <img width="458" height="414" alt="image" src="https://github.com/user-attachments/assets/c1044db3-1d5d-4167-bb08-e0e58cf9b6f1" />
+* **[QR Code Generator](https://toolkit.coffsec.com/qr):** Generate scannable QR codes from text, links, or contact info. <img width="487" height="403" alt="image" src="https://github.com/user-attachments/assets/b4059316-3688-4768-b812-93ca840d8800" />
+* **[Markdown Editor](https://toolkit.coffsec.com/markdown):** Write Markdown with a live, real-time rich-text preview. <img width="721" height="410" alt="image" src="https://github.com/user-attachments/assets/94bfae65-2a7a-40e5-94e1-b4a02dd9af15" />
+* **[HTML Editor](https://toolkit.coffsec.com/html-editor):** Write and test HTML/CSS/JS with instant visual output. <img width="707" height="419" alt="image" src="https://github.com/user-attachments/assets/348d7b87-53ab-4b37-a595-b79dfb74c4e6" />
+* **[SVG Editor](https://toolkit.coffsec.com/svg-editor):** Preview, edit, and tweak raw Scalable Vector Graphics code. <img width="708" height="410" alt="image" src="https://github.com/user-attachments/assets/98d2f086-46b7-4db1-a4f4-a6b11a7378c6" />
+
 
 ### 🌐 Network & Recon Utilities
 Tools for network calculations, subnetting, and web reconnaissance.
-* **[CIDR Calculator](https://toolkit.coffsec.com/cidr):** Calculate network ranges, subnet masks, broadcast addresses, and usable host counts from CIDR notation.
-* **[Favicon Finder](https://toolkit.coffsec.com/favicon):** Discover and extract favicons from target domains for reconnaissance, branding analysis, and asset enumeration.
+* **[CIDR Calculator](https://toolkit.coffsec.com/cidr):** Calculate network ranges, subnet masks, broadcast addresses, and usable host counts from CIDR notation. <img width="630" height="386" alt="image" src="https://github.com/user-attachments/assets/2c315f08-3d13-44f1-9205-7755554e4277" />
+* **[Favicon Finder](https://toolkit.coffsec.com/favicon):** Discover and extract favicons from target domains for reconnaissance, branding analysis, and asset enumeration. <img width="659" height="317" alt="image" src="https://github.com/user-attachments/assets/37ba9fa3-e04d-4c31-b01d-5faecfd6f94f" />
 
 ---
 
