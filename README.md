@@ -44,18 +44,20 @@ Tools for securing data, generating keys, and testing cryptographic algorithms.
 
 ### 🧮 Hashing
 Generate one-way cryptographic hashes for data integrity verification.
-* **[MD5](https://toolkit.coffsec.com/md5):** Generate 128-bit MD5 hashes.
-* **[SHA-1](https://toolkit.coffsec.com/sha1):** Generate 160-bit SHA-1 hashes.
-* **[SHA-256](https://toolkit.coffsec.com/sha256):** Generate secure 256-bit hashes (standard for most modern applications).
-* **[SHA-384](https://toolkit.coffsec.com/sha384):** Generate 384-bit cryptographic hashes.
-* **[SHA-512](https://toolkit.coffsec.com/sha512):** Generate highly secure 512-bit hashes.
+* **[MD5](https://toolkit.coffsec.com/md5):** Generate secure 128-bit MD5 hashes. <img width="506" height="356" alt="image" src="https://github.com/user-attachments/assets/623effa4-e399-4423-ba03-f27bbc1c4f1f" />
+* **[SHA-1](https://toolkit.coffsec.com/sha1):** Generate secure 160-bit SHA-1 hashes. <img width="491" height="353" alt="image" src="https://github.com/user-attachments/assets/ad945241-3122-4655-86f9-e097261f93e4" />
+* **[SHA-256](https://toolkit.coffsec.com/sha256):** Generate secure 256-bit hashes (standard for most modern applications). <img width="488" height="351" alt="image" src="https://github.com/user-attachments/assets/fa09887c-fbb3-4171-bfbb-f2d9e8d6e60c" />
+* **[SHA-384](https://toolkit.coffsec.com/sha384):** Generate 384-bit cryptographic hashes.<img width="483" height="359" alt="image" src="https://github.com/user-attachments/assets/0cfb0c82-4568-4774-acea-9f2f07278dad" />
+* **[SHA-512](https://toolkit.coffsec.com/sha512):** Generate highly secure 512-bit hashes. <img width="488" height="357" alt="image" src="https://github.com/user-attachments/assets/4c9c05aa-ec85-4e84-9014-d73786b4a88c" />
+
 
 ### 🔄 Encoding & Decoding
 Quickly translate data between different formats and representations.
-* **[Base64](https://toolkit.coffsec.com/base64):** Encode text or files to Base64 and decode them back to their original form.
-* **[Hex](https://toolkit.coffsec.com/hex):** Convert text to hexadecimal strings and vice-versa.
-* **[ASCII](https://toolkit.coffsec.com/ascii):** Translate strings into their corresponding ASCII numerical values.
-* **[URL Encode/Decode](https://toolkit.coffsec.com/url):** Safely encode special characters for web URLs or decode them back to readable text.
+* **[Base64](https://toolkit.coffsec.com/base64):** Encode text or files to Base64 and decode them back to their original form. <img width="665" height="348" alt="image" src="https://github.com/user-attachments/assets/c9344ab3-596d-4778-a44d-89553b8890f6" />
+* **[Hex](https://toolkit.coffsec.com/hex):** Convert text to hexadecimal strings and vice-versa. <img width="635" height="332" alt="image" src="https://github.com/user-attachments/assets/e3ea913e-33ed-43b3-9774-168681aae52f" />
+* **[ASCII](https://toolkit.coffsec.com/ascii):** Translate strings into their corresponding ASCII numerical values. <img width="629" height="338" alt="image" src="https://github.com/user-attachments/assets/7f798ab3-6dd2-4e7f-8382-6d08b0deab2c" />
+* **[URL Encode/Decode](https://toolkit.coffsec.com/url):** Safely encode special characters for web URLs or decode them back to readable text. <img width="623" height="329" alt="image" src="https://github.com/user-attachments/assets/d3997c1a-b343-4bf5-a3df-33a9eac639d9" />
+
 
 ### 🪄 Formatters & Beautifiers
 Clean up minified or messy code to make it human-readable.
