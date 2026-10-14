@@ -61,17 +61,18 @@ Quickly translate data between different formats and representations.
 
 ### 🪄 Formatters & Beautifiers
 Clean up minified or messy code to make it human-readable.
-* **[JSON Beautify](https://toolkit.coffsec.com/json-beautify):** Format, indent, and validate JSON data.
-* **[JS Beautify](https://toolkit.coffsec.com/js-beautify):** Unminify and format JavaScript code.
-* **[SQL Beautify](https://toolkit.coffsec.com/sql-beautify):** Format messy SQL queries into a clean, structured layout.
+* **[JSON Beautify](https://toolkit.coffsec.com/json-beautify):** Format, indent, and validate JSON data. <img width="649" height="416" alt="image" src="https://github.com/user-attachments/assets/7313a2cb-3cef-40e8-bbe6-4899a476b600" />
+* **[JS Beautify](https://toolkit.coffsec.com/js-beautify):** Unminify and format JavaScript code. <img width="652" height="393" alt="image" src="https://github.com/user-attachments/assets/ca377ced-1833-4317-bbd8-a00aeefb10dc" />
+* **[SQL Beautify](https://toolkit.coffsec.com/sql-beautify):** Format messy SQL queries into a clean, structured layout.<img width="631" height="408" alt="image" src="https://github.com/user-attachments/assets/d63f1a0a-774e-4729-9df3-d5b6d2494a02" />
 
 ### 🛠️ Developer Utilities
 Handy tools for daily software development and debugging.
-* **[JWT Decoder (jwt.coffsec.com)](https://jwt.coffsec.com):** Decode, verify, and inspect JSON Web Tokens.
-* **[Regex Tester](https://toolkit.coffsec.com/regex):** Write, test, and debug Regular Expressions in real-time against sample text.
-* **[Diff Checker](https://toolkit.coffsec.com/diff):** Compare two blocks of text or code to find additions, deletions, and modifications.
-* **[cURL Converter](https://toolkit.coffsec.com/curl-converter):** Convert raw cURL commands into usable code for Python, Node.js, Go, PHP, and more.
-* **[JSON to CSV](https://toolkit.coffsec.com/json-to-csv):** Easily convert complex JSON arrays/objects into tabular CSV format.
+* **[JWT Decoder (jwt.coffsec.com)](https://jwt.coffsec.com):** Decode, verify, and inspect JSON Web Tokens. <img width="632" height="377" alt="image" src="https://github.com/user-attachments/assets/362ee8b3-3b75-44d6-849b-880240dc3e3f" />
+* **[Regex Tester](https://toolkit.coffsec.com/regex):** Write, test, and debug Regular Expressions in real-time against sample text. <img width="616" height="415" alt="image" src="https://github.com/user-attachments/assets/b2109092-99c3-4cac-8c2c-5d91712d56b2" />
+* **[Diff Checker](https://toolkit.coffsec.com/diff):** Compare two blocks of text or code to find additions, deletions, and modifications. <img width="620" height="406" alt="image" src="https://github.com/user-attachments/assets/f2a47a5a-b59f-491a-a922-613646a45703" />
+* **[cURL Converter](https://toolkit.coffsec.com/curl-converter):** Convert raw cURL commands into usable code for Python, Node.js, Go, PHP, and more. <img width="617" height="421" alt="image" src="https://github.com/user-attachments/assets/c72ea175-afb7-45a7-988d-9029357e1540" />
+* **[JSON to CSV](https://toolkit.coffsec.com/json-to-csv):** Easily convert complex JSON arrays/objects into tabular CSV format. <img width="638" height="384" alt="image" src="https://github.com/user-attachments/assets/317e0b78-ec26-4ce7-940c-1e275eb90ada" />
+
 
 ### 📝 Editors & Generators
 In-browser authoring and generation tools.
