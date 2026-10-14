@@ -33,13 +33,14 @@ The toolkit is divided into several categories to help you find the right tool f
 
 ### 🔐 Cryptography & Encryption
 Tools for securing data, generating keys, and testing cryptographic algorithms.
-* **[AES](https://toolkit.coffsec.com/aes):** Encrypt and decrypt data using the Advanced Encryption Standard (symmetric encryption).
-* **[RSA](https://toolkit.coffsec.com/rsa):** Generate asymmetric RSA key pairs, encrypt, and decrypt data.
-* **[ECC](https://toolkit.coffsec.com/ecc):** Elliptic Curve Cryptography tool for modern, lightweight public-key encryption.
-* **[Bcrypt](https://toolkit.coffsec.com/bcrypt):** Generate and verify secure Bcrypt password hashes.
-* **[XOR](https://toolkit.coffsec.com/xor):** Perform bitwise XOR operations on text or data streams.
-* **[Caesar Cipher](https://toolkit.coffsec.com/caesar):** Encrypt or decrypt text using the classic shift cipher.
-* **[IPv4 Obfuscation](https://toolkit.coffsec.com/ipv4fuscation):** Obfuscate IP addresses into decimal, hex, or octal formats for security testing and payload crafting.
+* **[AES](https://toolkit.coffsec.com/aes):** Encrypt and decrypt data using the Advanced Encryption Standard (symmetric encryption). <img width="486" height="407" alt="image" src="https://github.com/user-attachments/assets/8448842d-b68c-410e-995d-ae0cf2de26a9" />
+* **[RSA](https://toolkit.coffsec.com/rsa):** Generate asymmetric RSA key pairs, encrypt, and decrypt data. <img width="467" height="434" alt="image" src="https://github.com/user-attachments/assets/5827ad54-31fb-4392-a3d2-e341e903ca56" />
+* **[ECC](https://toolkit.coffsec.com/ecc):** Elliptic Curve Cryptography tool for modern, lightweight public-key encryption. <img width="468" height="436" alt="image" src="https://github.com/user-attachments/assets/5e4d07b4-6049-4c61-9cba-2aa817ce9d69" />
+* **[Bcrypt](https://toolkit.coffsec.com/bcrypt):** Generate and verify secure Bcrypt password hashes. <img width="629" height="310" alt="image" src="https://github.com/user-attachments/assets/5901cdeb-a085-4c70-aa44-f13ef1b25586" />
+* **[XOR](https://toolkit.coffsec.com/xor):** Perform bitwise XOR operations on text or data streams. <img width="638" height="365" alt="image" src="https://github.com/user-attachments/assets/aa22169c-539a-4abf-ad1f-a2fb6053fb97" />
+* **[Caesar Cipher](https://toolkit.coffsec.com/caesar):** Encrypt or decrypt text using the classic shift cipher. <img width="617" height="377" alt="image" src="https://github.com/user-attachments/assets/faae559c-c9a9-4e02-be36-61246e0f2d30" />
+* **[IPv4 Obfuscation](https://toolkit.coffsec.com/ipv4fuscation):** Obfuscate IP addresses into decimal, hex, or octal formats for security testing and payload crafting.<img width="615" height="359" alt="image" src="https://github.com/user-attachments/assets/d68057e7-19cd-4555-a6c2-eac9d3a83649" />
+
 
 ### 🧮 Hashing
 Generate one-way cryptographic hashes for data integrity verification.
