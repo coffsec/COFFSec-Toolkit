@@ -2,12 +2,14 @@
 
 # COFFSec Toolkit
 
-**A curated collection of practical cybersecurity tools and resources for security professionals.**
+**The premier web-based toolkit built for offensive and defensive security professionals.**
 
-[![Live Toolkit](https://img.shields.io/badge/Live-Toolkit-0A66C2?style=for-the-badge&logo=googlechrome&logoColor=white)](https://toolkit.coffsec.com)
-[![COFFSec](https://img.shields.io/badge/COFFSec-Official-111111?style=for-the-badge&logo=github&logoColor=white)](https://coffsec.com)
-[![License](https://img.shields.io/badge/License-TBD-8A2BE2?style=for-the-badge)](#license)
-[![Made for Security Professionals](https://img.shields.io/badge/Made%20for-Security%20Professionals-red?style=for-the-badge)](#who-its-for)
+[![Live Toolkit](https://img.shields.io/badge/Live_Toolkit-0A66C2?style=flat-square&logo=googlechrome&logoColor=white)](https://toolkit.coffsec.com)
+[![COFFSec Official](https://img.shields.io/badge/COFFSec-Official-181717?style=flat-square&logo=github&logoColor=white)](https://coffsec.com)
+[![Version](https://img.shields.io/badge/Version-v1.0.0--beta-blue?style=flat-square&logo=semver&logoColor=white)](#)
+[![Target Audience](https://img.shields.io/badge/Audience-Security_Professionals-D9381E?style=flat-square&logo=target&logoColor=white)](#who-its-for)
+[![License](https://img.shields.io/badge/License-Proprietary-8A2BE2?style=flat-square)](#license)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen?style=flat-square&logo=github)](#contributing)
 
 **Explore the toolkit at [toolkit.coffsec.com](https://toolkit.coffsec.com)**
 
