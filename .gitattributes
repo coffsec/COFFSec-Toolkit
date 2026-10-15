@@ -1,3 +1,0 @@
-# Force GitHub to classify .js files as JSX (React)
-*.js linguist-language=TypeScript
-*.jsx linguist-language=TypeScript
